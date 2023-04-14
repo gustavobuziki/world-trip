@@ -1,0 +1,40 @@
+{
+	"continents": [
+		{
+			"id": 1,
+			"name": "América do Norte",
+			"image": "/images/america-norte.jpg",
+			"curiosity": "Possui extensas cadeias montanhosas"
+		},
+		{
+			"id": 2,
+			"name": "América do Sul",
+			"image": "/images/america-sul.jpg",
+			"curiosity": "Tem a maior floresta tropical do mundo"
+		},
+		{
+			"id": 3,
+			"name": "Ásia",
+			"image": "/images/asia.jpg",
+			"curiosity": "O continente mais populoso"
+		},
+		{
+			"id": 4,
+			"name": "África",
+			"image": "/images/africa.jpg",
+			"curiosity": "Apresenta uma grande diversidade cultural"
+		},
+		{
+			"id": 5,
+			"name": "Europa",
+			"image": "/images/europa.jpg",
+			"curiosity": "O continente mais antigo"
+		},
+		{
+			"id": 6,
+			"name": "Oceania",
+			"image": "/images/oceania.jpg",
+			"curiosity": "O continente menos populoso"
+		}
+	]
+}
