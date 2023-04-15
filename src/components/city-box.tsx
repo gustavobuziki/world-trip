@@ -13,7 +13,7 @@ export const CityBox = () => {
 						Reino Unido
 					</Text>
 				</VStack>
-				<Image src="/earth.svg" alt="país" height={30} width={30} />
+				<Image src="icons/earth.svg" alt="país" height={30} width={30} />
 			</Flex>
 		</Box>
 	);

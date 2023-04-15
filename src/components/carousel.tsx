@@ -27,7 +27,8 @@ export const Carousel = () => {
 	}, []);
 
 	return (
-		<Flex margin="0 auto" maxW={1200} maxH={450} mb="10" justifyContent="center">
+		//ARRUMAR CORES DAS SETAS DO CAROUSEL
+		<Flex margin="0 auto" maxW={['100%', 1200]} maxH={[250, 450]} mb="10" justifyContent="center">
 			<Swiper
 				autoplay={true}
 				loop={true}
@@ -36,21 +37,30 @@ export const Carousel = () => {
 				keyboard={true}
 				modules={[Navigation, Pagination, Keyboard, Autoplay]}
 			>
-				{continent.map((info) => (
-					<SwiperSlide key={info.id}>
-						<Flex justifyContent="center" alignItems="center">
-							<Image src={info.image} alt={info.name} width={1240} height={450} />
-							<Flex color="white-100" direction="column" position="absolute" alignItems="center">
-								<Text fontWeight={700} fontSize={48}>
-									{info.name}
-								</Text>
-								<Text as="span" fontWeight={700} fontSize={24}>
-									{info.curiosity}
-								</Text>
+				{continent.length > 0 ? (
+					continent.map((info) => (
+						<SwiperSlide key={info.id}>
+							<Flex justifyContent="center" alignItems="center">
+								<Image
+									src={info.image}
+									alt={info.name}
+									width={['100%', 1240]}
+									height={[250, 450]}
+								/>
+								<Flex color="white-100" direction="column" position="absolute" alignItems="center">
+									<Text fontWeight={700} fontSize={[24, 48]}>
+										{info.name}
+									</Text>
+									<Text as="span" fontWeight={700} fontSize={[14, 24]}>
+										{info.curiosity}
+									</Text>
+								</Flex>
 							</Flex>
-						</Flex>
-					</SwiperSlide>
-				))}
+						</SwiperSlide>
+					))
+				) : (
+					<h1>Sem resultado</h1>
+				)}
 			</Swiper>
 		</Flex>
 	);
