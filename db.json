@@ -4,37 +4,289 @@
 			"id": 1,
 			"name": "América do Norte",
 			"image": "/images/america-norte.jpg",
-			"curiosity": "Possui extensas cadeias montanhosas"
+			"curiosity": "Possui extensas cadeias montanhosas",
+			"data": {
+				"countries": 3,
+				"languages": 4
+			},
+			"popularCities": [
+				{
+					"name": "Cidade do México",
+					"country": "México",
+					"icon": "icons/country/mexico.svg"
+				},
+				{
+					"name": "Nova York",
+					"country": "EUA",
+					"icon": "icons/country/eua.svg"
+				},
+				{
+					"name": "Toronto",
+					"country": "Canadá",
+					"icon": "icons/country/canada.svg"
+				},
+				{
+					"name": "Los Angeles",
+					"country": "EUA",
+					"icon": "icons/country/eua.svg"
+				},
+				{
+					"name": "Montreal",
+					"country": "Canadá",
+					"icon": "icons/country/canada.svg"
+				},
+				{
+					"name": "Chicago",
+					"country": "EUA",
+					"icon": "icons/country/eua.svg"
+				},
+				{
+					"name": "Houston",
+					"country": "EUA",
+					"icon": "icons/country/eua.svg"
+				}
+			],
+			"description": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica)."
 		},
 		{
 			"id": 2,
 			"name": "América do Sul",
 			"image": "/images/america-sul.jpg",
-			"curiosity": "Tem a maior floresta tropical do mundo"
+			"curiosity": "Tem a maior floresta tropical do mundo",
+			"data": {
+				"countries": 12,
+				"languages": 5
+			},
+			"description": "A América do Sul é um subcontinente que faz parte do continente americano. Apresenta área de 17 milhões de km², com a maior extensão situada no hemisfério sul do planeta Terra. A população sul-americana é de mais de 434 milhões de habitantes, a qual é distribuída por 12 países e um departamento ultramarino francês. Trata-se de uma região com aspectos climáticos e geomorfológicos bastante diversos e únicos, que abriga feições como a Cordilheira dos Andes e a Planície Amazônica, além de uma enorme biodiversidade.",
+			"popularCities": [
+				{
+					"name": "Rio de Janeiro",
+					"country": "Brasil",
+					"icon": "icons/country/brasil.svg"
+				},
+				{
+					"name": "Cusco",
+					"country": "Peru",
+					"icon": "icons/country/peru.svg"
+				},
+				{
+					"name": "Gramado",
+					"country": "Brasil",
+					"icon": "icons/country/brasil.svg"
+				},
+				{
+					"name": "Natal",
+					"country": "Brasil",
+					"icon": "icons/country/brasil.svg"
+				},
+				{
+					"name": "Foz do Iguaçu",
+					"country": "Brasil",
+					"icon": "icons/country/brasil.svg"
+				},
+				{
+					"name": "Cartagena",
+					"country": "Colômbia",
+					"icon": "icons/country/colombia.svg"
+				},
+				{
+					"name": "Lima",
+					"country": "Peru",
+					"icon": "icons/country/peru.svg"
+				}
+			]
 		},
 		{
 			"id": 3,
 			"name": "Ásia",
 			"image": "/images/asia.jpg",
-			"curiosity": "O continente mais populoso"
+			"curiosity": "O continente mais populoso",
+			"data": {
+				"countries": 51,
+				"languages": 2300
+			},
+			"description": "A Ásia é um continente enorme com um tamanho total de 44.579.000 km2 e, se isso não bastasse, é também o continente mais populoso do mundo. Os maiores países do mundo podem ser encontrados aqui: Rússia, China e Índia. Há mais bilionários no continente asiático do que em qualquer outro lugar do mundo.",
+			"popularCities": [
+				{
+					"name": "Hong Kong",
+					"country": "Hong Kong",
+					"icon": "icons/country/hong-kong.svg"
+				},
+				{
+					"name": "Bangkok",
+					"country": "Tailândia",
+					"icon": "icons/country/tailandia.svg"
+				},
+				{
+					"name": "Macau",
+					"country": "Macau",
+					"icon": "icons/country/macau.svg"
+				},
+				{
+					"name": "Singapura",
+					"country": "Singapura",
+					"icon": "icons/country/singapura.svg"
+				},
+				{
+					"name": "Dubai",
+					"country": "Emirados Árabes",
+					"icon": "icons/country/emirados-arabes.svg"
+				},
+				{
+					"name": "Kuala Lumpur",
+					"country": "Malásia",
+					"icon": "icons/country/malasia.svg"
+				},
+				{
+					"name": "Istambul",
+					"country": "Turquia",
+					"icon": "icons/country/turquia.svg"
+				},
+				{
+					"name": "Nova Delhi",
+					"country": "Índia",
+					"icon": "icons/country/india.svg"
+				},
+				{
+					"name": "Antalya",
+					"country": "Turquia",
+					"icon": "icons/country/turquia.svg"
+				},
+				{
+					"name": "Shenzhen",
+					"country": "China",
+					"icon": "icons/country/china.svg"
+				}
+			]
 		},
 		{
 			"id": 4,
 			"name": "África",
 			"image": "/images/africa.jpg",
-			"curiosity": "Apresenta uma grande diversidade cultural"
+			"curiosity": "Apresenta uma grande diversidade cultural",
+			"data": {
+				"countries": 54,
+				"languages": 2140
+			},
+			"description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes.",
+			"popularCities": [
+				{
+					"name": "Lagos",
+					"country": "Nigéria",
+					"icon": "icons/country/nigeria.svg"
+				},
+				{
+					"name": "Cairo",
+					"country": "Egito",
+					"icon": "icons/country/egito.svg"
+				},
+				{
+					"name": "Quinxassa",
+					"country": "República Democrática do Congo",
+					"icon": "icons/country/republica-congo.svg"
+				},
+				{
+					"name": "Nairóbi",
+					"country": "Quénia",
+					"icon": "icons/country/quenia.svg"
+				}
+			]
 		},
 		{
 			"id": 5,
 			"name": "Europa",
 			"image": "/images/europa.jpg",
-			"curiosity": "O continente mais antigo"
+			"curiosity": "O continente mais antigo",
+			"data": {
+				"countries": 50,
+				"languages": 289
+			},
+			"description": "A Europa é o segundo menor continente do mundo e possui 50 países. Europa é um dos seis continentes do mundo, sendo em extensão territorial o segundo menor. O continente é banhado, ao norte, pelo Mar Ártico; ao sul, pelo Mar Mediterrâneo e o Mar Negro; a oeste, pelo Oceano Atlântico; e, a leste, pelo Mar Cáspio.",
+			"popularCities": [
+				{
+					"name": "Paris",
+					"country": "França",
+					"icon": "icons/country/franca.svg"
+				},
+				{
+					"name": "Londres",
+					"country": "Ingaletrra",
+					"icon": "icons/country/inglaterra.svg"
+				},
+				{
+					"name": "Istambul",
+					"country": "Turquia",
+					"icon": "icons/country/turquia.svg"
+				},
+				{
+					"name": "Antália",
+					"country": "Turquia",
+					"icon": "icons/country/turquia.svg"
+				},
+				{
+					"name": "Milão",
+					"country": "Itália",
+					"icon": "icons/country/italia.svg"
+				},
+				{
+					"name": "Barcelona",
+					"country": "Espanha",
+					"icon": "icons/country/espanha.svg"
+				},
+				{
+					"name": "Palma de Maiorca",
+					"country": "Espanha",
+					"icon": "icons/country/espanha.svg"
+				},
+				{
+					"name": "Lisboa",
+					"country": "Portugal",
+					"icon": "icons/country/portugal.svg"
+				}
+			]
 		},
 		{
 			"id": 6,
 			"name": "Oceania",
 			"image": "/images/oceania.jpg",
-			"curiosity": "O continente menos populoso"
+			"curiosity": "O continente menos populoso",
+			"data": {
+				"countries": 14,
+				"languages": 1323
+			},
+			"description": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico. O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville.",
+			"popularCities": [
+				{
+					"name": "Sidney",
+					"country": "Austrália",
+					"icon": "icons/country/australia.svg"
+				},
+				{
+					"name": "Melbourne",
+					"country": "Austrália",
+					"icon": "icons/country/australia.svg"
+				},
+				{
+					"name": "Brisbane",
+					"country": "Austrália",
+					"icon": "icons/country/australia.svg"
+				},
+				{
+					"name": "Perth",
+					"country": "Austrália",
+					"icon": "icons/country/australia.svg"
+				},
+				{
+					"name": "Auckland ",
+					"country": "Nova Zelândia",
+					"icon": "icons/country/nova-zelandia.svg"
+				},
+				{
+					"name": "Wellington",
+					"country": "Nova Zelândia",
+					"icon": "icons/country/nova-zelandia.svg"
+				}
+			]
 		}
 	]
 }

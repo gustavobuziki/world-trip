@@ -29,7 +29,12 @@ export const Banner = () => {
 
 			{isDesktop && (
 				<Box>
-					<Image src="/icons/airplane.svg" alt="Airplane" width={[320, 417]} height={[140, 270]} />
+					<Image
+						src="/icons/nav/airplane.svg"
+						alt="Airplane"
+						width={[320, 417]}
+						height={[140, 270]}
+					/>
 				</Box>
 			)}
 		</Flex>

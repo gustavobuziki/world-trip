@@ -8,6 +8,7 @@ import { Navigation, Pagination, Keyboard, Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { useRouter } from 'next/router';
 
 type Continent = {
 	id: number;
@@ -19,12 +20,18 @@ type Continent = {
 export const Carousel = () => {
 	const [continent, setContinent] = useState<Continent[] | []>([]);
 
+	const router = useRouter();
+
 	useEffect(() => {
 		axios
 			.get('http://localhost:3001/continents')
 			.then((resp) => setContinent(resp.data))
 			.catch((e) => setContinent(e));
 	}, []);
+
+	const choiceOfContinent = (resp: number) => {
+		router.push(`/continent/?id=${resp}`);
+	};
 
 	return (
 		//ARRUMAR CORES DAS SETAS DO CAROUSEL
@@ -40,7 +47,12 @@ export const Carousel = () => {
 				{continent.length > 0 ? (
 					continent.map((info) => (
 						<SwiperSlide key={info.id}>
-							<Flex justifyContent="center" alignItems="center">
+							<Flex
+								justifyContent="center"
+								alignItems="center"
+								cursor="pointer"
+								onClick={() => choiceOfContinent(info.id)}
+							>
 								<Image
 									src={info.image}
 									alt={info.name}

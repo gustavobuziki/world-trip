@@ -13,7 +13,7 @@ export default function Home() {
 				<Divider height="0.125rem" width="5.625rem" bgColor="gray-400" />
 				<Text fontWeight="500" fontSize={[20, 36]} align="center">
 					Vamos nessa? <br />
-					Então escolha seu continente
+					Então escolha seu continente ou sub-continente
 				</Text>
 			</VStack>
 

@@ -10,7 +10,7 @@ export const Navigation = () => {
 	return isDesktop ? (
 		<HStack spacing="6" py="20" justifyContent="center" gap="30">
 			<Flex gap="6" direction="column" alignItems="center">
-				<Image src="/icons/surf.svg" alt="icon" />
+				<Image src="/icons/nav/surf.svg" alt="icon" />
 				<Text fontWeight="semibold" fontSize="24">
 					icon
 				</Text>
