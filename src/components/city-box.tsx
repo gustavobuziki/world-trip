@@ -1,19 +1,26 @@
 import { Box, Flex, Image, Text, VStack } from '@chakra-ui/react';
 
-export const CityBox = () => {
+interface CityBoxProps {
+	city: string;
+	country: string;
+	icon: string;
+	image: string;
+}
+
+export const CityBox = ({ city, country, icon, image }: CityBoxProps) => {
 	return (
-		<Box w={256} h={279} border="1px solid rgba(255, 186, 8, 0.5)" borderRadius="4px">
-			<Image src="/images/europa.jpg" alt="cidade" maxH={173} width="100%" />
+		<Box w={256} h={310} border="1px solid rgba(255, 186, 8, 0.5)" borderRadius="4px">
+			<Image src={image} alt="cidade" maxH={173} width="100%" />
 			<Flex justifyContent="space-between" p="6">
 				<VStack spacing="3" alignItems="flex-start">
 					<Text fontWeight={600} fontSize={20} color="gray-400">
-						Londres
+						{city}
 					</Text>
 					<Text fontWeight={500} fontSize={16} color="gray-100">
-						Reino Unido
+						{country}
 					</Text>
 				</VStack>
-				<Image src="icons/earth.svg" alt="país" height={30} width={30} />
+				<Image src={icon} alt={city} height={30} width={30} />
 			</Flex>
 		</Box>
 	);

@@ -7,8 +7,6 @@ export const Banner = () => {
 		lg: true,
 	});
 
-	console.log(isDesktop);
-
 	return (
 		<Flex
 			justifyContent="space-between"

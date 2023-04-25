@@ -13,37 +13,37 @@
 				{
 					"name": "Cidade do México",
 					"country": "México",
-					"icon": "icons/country/mexico.png"
+					"icon": "icons/countries/mexico.png"
 				},
 				{
 					"name": "Nova York",
 					"country": "EUA",
-					"icon": "icons/country/eua.png"
+					"icon": "icons/countries/eua.png"
 				},
 				{
 					"name": "Toronto",
 					"country": "Canadá",
-					"icon": "icons/country/canada.png"
+					"icon": "icons/countries/canada.png"
 				},
 				{
 					"name": "Los Angeles",
 					"country": "EUA",
-					"icon": "icons/country/eua.png"
+					"icon": "icons/countries/eua.png"
 				},
 				{
 					"name": "Montreal",
 					"country": "Canadá",
-					"icon": "icons/country/canada.png"
+					"icon": "icons/countries/canada.png"
 				},
 				{
 					"name": "Chicago",
 					"country": "EUA",
-					"icon": "icons/country/eua.png"
+					"icon": "icons/countries/eua.png"
 				},
 				{
 					"name": "Houston",
 					"country": "EUA",
-					"icon": "icons/country/eua.png"
+					"icon": "icons/countries/eua.png"
 				}
 			],
 			"description": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica)."
@@ -62,37 +62,37 @@
 				{
 					"name": "Rio de Janeiro",
 					"country": "Brasil",
-					"icon": "icons/country/brasil.png"
+					"icon": "icons/countries/brasil.png"
 				},
 				{
 					"name": "Cusco",
 					"country": "Peru",
-					"icon": "icons/country/peru.png"
+					"icon": "icons/countries/peru.png"
 				},
 				{
 					"name": "Gramado",
 					"country": "Brasil",
-					"icon": "icons/country/brasil.png"
+					"icon": "icons/countries/brasil.png"
 				},
 				{
 					"name": "Natal",
 					"country": "Brasil",
-					"icon": "icons/country/brasil.png"
+					"icon": "icons/countries/brasil.png"
 				},
 				{
 					"name": "Foz do Iguaçu",
 					"country": "Brasil",
-					"icon": "icons/country/brasil.png"
+					"icon": "icons/countries/brasil.png"
 				},
 				{
 					"name": "Cartagena",
 					"country": "Colômbia",
-					"icon": "icons/country/colombia.png"
+					"icon": "icons/countries/colombia.png"
 				},
 				{
 					"name": "Lima",
 					"country": "Peru",
-					"icon": "icons/country/peru.png"
+					"icon": "icons/countries/peru.png"
 				}
 			]
 		},
@@ -110,52 +110,52 @@
 				{
 					"name": "Hong Kong",
 					"country": "Hong Kong",
-					"icon": "icons/country/hong-kong.png"
+					"icon": "icons/countries/hong-kong.png"
 				},
 				{
 					"name": "Bangkok",
 					"country": "Tailândia",
-					"icon": "icons/country/tailandia.png"
+					"icon": "icons/countries/tailandia.png"
 				},
 				{
 					"name": "Macau",
 					"country": "Macau",
-					"icon": "icons/country/macau.png"
+					"icon": "icons/countries/macau.png"
 				},
 				{
 					"name": "Singapura",
 					"country": "Singapura",
-					"icon": "icons/country/singapura.png"
+					"icon": "icons/countries/singapura.png"
 				},
 				{
 					"name": "Dubai",
 					"country": "Emirados Árabes",
-					"icon": "icons/country/emirados-arabes.png"
+					"icon": "icons/countries/emirados-arabes.png"
 				},
 				{
 					"name": "Kuala Lumpur",
 					"country": "Malásia",
-					"icon": "icons/country/malasia.png"
+					"icon": "icons/countries/malasia.png"
 				},
 				{
 					"name": "Istambul",
 					"country": "Turquia",
-					"icon": "icons/country/turquia.png"
+					"icon": "icons/countries/turquia.png"
 				},
 				{
 					"name": "Nova Delhi",
 					"country": "Índia",
-					"icon": "icons/country/india.png"
+					"icon": "icons/countries/india.png"
 				},
 				{
 					"name": "Antalya",
 					"country": "Turquia",
-					"icon": "icons/country/turquia.png"
+					"icon": "icons/countries/turquia.png"
 				},
 				{
 					"name": "Shenzhen",
 					"country": "China",
-					"icon": "icons/country/china.png"
+					"icon": "icons/countries/china.png"
 				}
 			]
 		},
@@ -173,22 +173,22 @@
 				{
 					"name": "Lagos",
 					"country": "Nigéria",
-					"icon": "icons/country/nigeria.png"
+					"icon": "icons/countries/nigeria.png"
 				},
 				{
 					"name": "Cairo",
 					"country": "Egito",
-					"icon": "icons/country/egito.png"
+					"icon": "icons/countries/egito.png"
 				},
 				{
 					"name": "Quinxassa",
 					"country": "República Democrática do Congo",
-					"icon": "icons/country/republica-congo.png"
+					"icon": "icons/countries/republica-congo.png"
 				},
 				{
 					"name": "Nairóbi",
 					"country": "Quénia",
-					"icon": "icons/country/quenia.png"
+					"icon": "icons/countries/quenia.png"
 				}
 			]
 		},
@@ -206,42 +206,42 @@
 				{
 					"name": "Paris",
 					"country": "França",
-					"icon": "icons/country/franca.png"
+					"icon": "icons/countries/franca.png"
 				},
 				{
 					"name": "Londres",
 					"country": "Ingaletrra",
-					"icon": "icons/country/inglaterra.png"
+					"icon": "icons/countries/inglaterra.png"
 				},
 				{
 					"name": "Istambul",
 					"country": "Turquia",
-					"icon": "icons/country/turquia.png"
+					"icon": "icons/countries/turquia.png"
 				},
 				{
 					"name": "Antália",
 					"country": "Turquia",
-					"icon": "icons/country/turquia.png"
+					"icon": "icons/countries/turquia.png"
 				},
 				{
 					"name": "Milão",
 					"country": "Itália",
-					"icon": "icons/country/italia.png"
+					"icon": "icons/countries/italia.png"
 				},
 				{
 					"name": "Barcelona",
 					"country": "Espanha",
-					"icon": "icons/country/espanha.png"
+					"icon": "icons/countries/espanha.png"
 				},
 				{
 					"name": "Palma de Maiorca",
 					"country": "Espanha",
-					"icon": "icons/country/espanha.png"
+					"icon": "icons/countries/espanha.png"
 				},
 				{
 					"name": "Lisboa",
 					"country": "Portugal",
-					"icon": "icons/country/portugal.png"
+					"icon": "icons/countries/portugal.png"
 				}
 			]
 		},
@@ -259,32 +259,32 @@
 				{
 					"name": "Sidney",
 					"country": "Austrália",
-					"icon": "icons/country/australia.png"
+					"icon": "icons/countries/australia.png"
 				},
 				{
 					"name": "Melbourne",
 					"country": "Austrália",
-					"icon": "icons/country/australia.png"
+					"icon": "icons/countries/australia.png"
 				},
 				{
 					"name": "Brisbane",
 					"country": "Austrália",
-					"icon": "icons/country/australia.png"
+					"icon": "icons/countries/australia.png"
 				},
 				{
 					"name": "Perth",
 					"country": "Austrália",
-					"icon": "icons/country/australia.png"
+					"icon": "icons/countries/australia.png"
 				},
 				{
 					"name": "Auckland ",
 					"country": "Nova Zelândia",
-					"icon": "icons/country/nova-zelandia.png"
+					"icon": "icons/countries/nova-zelandia.png"
 				},
 				{
 					"name": "Wellington",
 					"country": "Nova Zelândia",
-					"icon": "icons/country/nova-zelandia.png"
+					"icon": "icons/countries/nova-zelandia.png"
 				}
 			]
 		}
