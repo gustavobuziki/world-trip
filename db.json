@@ -288,5 +288,27 @@
 				}
 			]
 		}
+	],
+	"navigations": [
+		{
+			"name": "vida noturna",
+			"icon": "/icons/nav/cocktail.svg"
+		},
+		{
+			"name": "praia",
+			"icon": "/icons/nav/surf.svg"
+		},
+		{
+			"name": "moderno",
+			"icon": "/icons/nav/building.svg"
+		},
+		{
+			"name": "clássico",
+			"icon": "/icons/nav/museum.svg"
+		},
+		{
+			"name": "e mais...",
+			"icon": "/icons/nav/earth.svg"
+		}
 	]
 }

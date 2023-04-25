@@ -16,3 +16,8 @@ export type continentType = {
 	];
 	description: string;
 };
+
+export type navigationType = {
+	name: string;
+	icon: string;
+};
