@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { HStack, Image, Text, useBreakpointValue, Flex, Box } from '@chakra-ui/react';
 
-import { navigationType } from '~/type/continente-type';
+import { navigationType } from '~/types/continente-type';
 
 export const Navigation = () => {
 	const isDesktop = useBreakpointValue({

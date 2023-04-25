@@ -8,7 +8,7 @@ import {
 	SetStateAction,
 } from 'react';
 
-import { continentType } from '~/type/continente-type';
+import { continentType } from '~/types/continente-type';
 import { useRouter } from 'next/router';
 
 interface ContinentContextProps {
