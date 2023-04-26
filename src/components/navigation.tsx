@@ -17,7 +17,7 @@ export const Navigation = () => {
 		axios
 			.get('http://localhost:3001/navigations')
 			.then((resp) => setNavigations(resp.data))
-			.catch((e) => console.log(e));
+			.catch((e) => alert(e));
 	}, []);
 
 	return isDesktop ? (
@@ -33,10 +33,12 @@ export const Navigation = () => {
 		</HStack>
 	) : (
 		<Flex alignItems="center" justifyContent="center" flexWrap="wrap" py="6" gap="20">
-			<Flex alignItems="center" gap="2">
-				<Box height="8px" width="8px" borderRadius="100%" bgColor="yellow"></Box>
-				<Text>icon</Text>
-			</Flex>
+			{navigations.map((navigation) => (
+				<Flex alignItems="center" gap="2" key={navigation.name}>
+					<Box height="8px" width="8px" borderRadius="100%" bgColor="yellow"></Box>
+					<Text>{navigation.name}</Text>
+				</Flex>
+			))}
 		</Flex>
 	);
 };

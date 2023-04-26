@@ -18,11 +18,10 @@ export const Carousel = () => {
 		axios
 			.get('http://localhost:3001/continents')
 			.then((resp) => setContinents(resp.data))
-			.catch((e) => console.log(e));
+			.catch((e) => alert(e));
 	}, []);
 
 	return (
-		//ARRUMAR CORES DAS SETAS DO CAROUSEL
 		<Flex margin="0 auto" maxW={['100%', 1200]} maxH={[250, 450]} mb="10" justifyContent="center">
 			{continents.length > 0 ? (
 				<Swiper

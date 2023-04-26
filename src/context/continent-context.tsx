@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import {
 	ReactNode,
 	createContext,
@@ -9,7 +10,6 @@ import {
 } from 'react';
 
 import { continentType } from '~/types/continente-type';
-import { useRouter } from 'next/router';
 
 interface ContinentContextProps {
 	children: ReactNode;
