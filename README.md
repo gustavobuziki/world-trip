@@ -7,11 +7,7 @@ praticar a criação de aplicações com next.js e a criação de interfaces com
 
 - Após clonar o projeto em sua máquina, rode o comando:
 
-npm install
-
-# or
-
-yarn
+npm install ou yarn
 
 - Depois, inicie o json-server com o comando:
 
@@ -19,15 +15,7 @@ json-server
 
 - E por fim, rode o comando abaixo para iniciar a aplicação:
 
-npm run dev
-
-# or
-
-yarn dev
-
-# or
-
-pnpm dev
+npm run dev ou yarn dev
 
 ```
 
